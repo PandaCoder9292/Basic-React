@@ -68,3 +68,38 @@
 .filter{
     display: flex;
 }
+
+.login{
+    margin: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 60px;
+}
+
+.search-box {
+    border-radius: 2px; 
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+
+.about-h1{
+    font-size: 3.5rem;
+    color: #fff;
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.about-div{
+    background: #0f172a;
+}
+
+.about-h2{
+    font-size: 1.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 10px 20px;
+    border-radius: 50px;
+    display: inline-block;
+    color: #94a3b8;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}

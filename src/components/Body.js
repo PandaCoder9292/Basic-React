@@ -15,6 +15,9 @@ const Body = () => {
   //console.log(listOfRest);
 
   const fetchData = async () => {
+    
+    // To avoid CORS error we use ="https://corsproxy.io/?" before api address to even avoid to using extention of CORS
+
     const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=30.7262317&lng=76.8562405&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
     const json = await data.json();
     
