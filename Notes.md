@@ -40,3 +40,18 @@
 
 //Swiggy backend API ->
 https://www.swiggy.com/dapi/restaurants/list/v5?lat=30.7262317&lng=76.8562405&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING
+
+#Components (Functional and State)
+and
+#Hooks(Normal JS function) - 
+1. useState()
+2. useEffect()
+
+# Important Interview Question
+Que> When useEffect is called?
+Ans. Cases->
+    1. When there is no Dependency Array at all     useEffect(() =>{} )
+        - Then it will be called every time the component(in which it is) is Rendered or re-rendered
+    2. When there is empty Dependency Array         useEffect(() =>{}, [])
+        -Then is is called only once, when comoponent Renders(in beginning) only once
+    3. When there is value in Dependency Array
