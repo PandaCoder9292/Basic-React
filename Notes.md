@@ -46,6 +46,7 @@ and
 #Hooks(Normal JS function) - 
 1. useState()
 2. useEffect()
+both are very useful but there are more out there
 
 # Important Interview Question
 Que> When useEffect is called?
